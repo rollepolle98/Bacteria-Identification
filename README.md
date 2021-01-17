@@ -7,20 +7,20 @@ The purpose of this repository to take the belly button data and transform it in
 
 Step 1
 
-![](Challenge/Analysis/Fig1.png)
+![](Challenge/Results/Fig1.png)
 
 Step 2 
 
-![](Challenge/Analysis/Fig2.png)
+![](Challenge/Results/Fig2.png)
 
 Step 3 
 
-![](Challenge/Analysis/Fig3.png)
+![](Challenge/Results/Fig3.png)
 
 Step 4
 
-![](Challenge/Analysis/Fig4.png)
+![](Challenge/Results/Fig4.png)
 
 Step 5
 
-![](Challenge/Analysis/Fig5.png)
+![](Challenge/Results/Fig5.png)
