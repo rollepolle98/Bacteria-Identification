@@ -25,3 +25,6 @@ Step 5 : Create a Gauge Chart
 
 ![](Challenge/Results/fig5.png)
 
+## Summary 
+
+Overaqll taking the data and transofrming into a site based on different charts helped visualize the data in multiple different charts based on particular subject ID.
