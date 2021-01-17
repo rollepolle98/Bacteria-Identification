@@ -5,23 +5,23 @@ The purpose of this repository to take the belly button data and transform it in
 
 ## Results
 
-Step 1
-
+Step 1 : Creating the basis of Belly Button Dashboard
 ![](Challenge/Results/Fig1.png)
 
-Step 2 
+Step 2 : Ensure that the data loads in
 
 ![](Challenge/Results/Fig2.png)
 
-Step 3 
+Step 3 : Create and Horizontal Bar Chart.
 
 ![](Challenge/Results/Fig4.png)
 
 
-Step 4
+Step 4 : Create a Bubble Chart
 
 ![](Challenge/Results/Fig3.png)
 
-Step 5
+Step 5 : Create a Gauge Chart
 
 ![](Challenge/Results/fig5.png)
+
