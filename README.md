@@ -15,12 +15,13 @@ Step 2
 
 Step 3 
 
-![](Challenge/Results/Fig3.png)
+![](Challenge/Results/Fig4.png)
+
 
 Step 4
 
-![](Challenge/Results/Fig4.png)
+![](Challenge/Results/Fig3.png)
 
 Step 5
 
-![](Challenge/Results/Fig5.png)
+![](Challenge/Results/fig5.png)
