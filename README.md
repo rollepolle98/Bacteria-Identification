@@ -10,20 +10,20 @@ Step 1 : Creating the basis of Belly Button Dashboard
 
 Step 2 : Ensure that the data loads in
 
-![](Challenge/Results/Fig2.png)
+![](Results/Fig2.png)
 
 Step 3 : Create and Horizontal Bar Chart.
 
-![](Challenge/Results/Fig4.png)
+![](Results/Fig4.png)
 
 
 Step 4 : Create a Bubble Chart
 
-![](Challenge/Results/Fig3.png)
+![](Results/Fig3.png)
 
 Step 5 : Create a Gauge Chart
 
-![](Challenge/Results/fig5.png)
+![](Results/fig5.png)
 
 ## Summary 
 
