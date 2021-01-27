@@ -6,7 +6,7 @@ The purpose of this repository to take the belly button data and transform it in
 ## Results
 
 Step 1 : Creating the basis of Belly Button Dashboard
-![](Challenge/Results/Fig1.png)
+![](Results/Fig1.png)
 
 Step 2 : Ensure that the data loads in
 
