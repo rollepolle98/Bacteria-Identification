@@ -78,9 +78,9 @@ function init() {
       // Hint: Get the the top 10 otu_ids and map them in descending order  
       //  so the otu_ids with the most bacteria are last. 
       var ybar = organismIDs.slice(0,10).reverse().map(idText => `OTU ${idText}`);
-      console.log(ybar)
+      console.log(ybar);
       var xbar = organismValues.slice(0,10).reverse();
-      console.log(xbar)
+      console.log(xbar);
       var barlabels = organismLabels.slice(0,10).reverse();
   
       // Create the trace for the bar chart. 
@@ -98,7 +98,7 @@ function init() {
        
       };
       // Use Plotly to plot the data with the layout. 
-      Plotly.newPlot("bar", barData, barLayout)
+      Plotly.newPlot("bar", barData, barLayout);
   
       // Create the trace for the bubble chart.
       var bubbleData = [{
