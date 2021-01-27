@@ -59,9 +59,7 @@ function init() {
     d3.json("samples.json").then((data) => {
       // Create a variable that holds the samples array. 
       var organismData = data.samples;
-      // console.log(organismData)
-  
-      // Create a variable that filters the samples for the object with the desired sample number.
+     
       var organismArray = organismData.filter(sampleObj => sampleObj.id == sample);
       // Create a variable that holds the first sample in the array.
       var organism = organismArray[0];
@@ -146,16 +144,21 @@ function init() {
             tickvals: [0,2,4,6,8,10]},
           bar: {color:'black'},
           steps: [
-            {range:[0,2],color:'red'},
-            {range:[2,4],color:'orange'},
-            {range:[4,6],color:'yellow'},
-            {range:[6,8],color:'greenyellow'},
-            {range:[8,10],color:'green'}]},
+            {range:[0,2],color:'blue'},
+            {range:[2,4],color:'purple'},
+            {range:[4,6],color:'orange'},
+            {range:[6,8],color:'green'},
+            {range:[8,10],color:'blue'}]},
   
       }];
       
       // Create the layout for the gauge chart.
-      var gaugeLayout = { 
+      var gaugeLayout = { width: 600,
+      height: 500,
+      margin: { t: 25, r: 25, l: 25, b: 25 },
+      font: { color: "black", family: "Arial" },
+      plot_bgcolor: "purple",
+      paper_bgcolor:"purple"
     
       };
   
