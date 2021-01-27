@@ -70,7 +70,7 @@ function buildCharts(sample) {
     var metaArray = metadata.filter((data) => data.id == sample);
 
     // Create a variable that holds the first sample in the array.
-    var result = resultArray[0]
+    var result = resultArray[0];
 
     // Create a variable that holds the first sample in the metadata array.
     var metaResult = metaArray[0];
@@ -89,9 +89,9 @@ function buildCharts(sample) {
     //  so the otu_ids with the most bacteria are last. 
 
     var yticks = otu_ids.slice(0,10).map((element) => `OTU ${element}`).reverse();
-    console.log(yticks)
+    console.log(yticks);
     var top10_otu_labels = otu_labels.slice(0,10).reverse();
-    console.log(yticks)
+    console.log(yticks);
     var top10_sample_values = sample_values.slice(0,10).reverse();
 
     // Create the trace for the bar chart. 
@@ -103,7 +103,7 @@ function buildCharts(sample) {
       orientation: 'h'
     };
 
-    var data = [barData];
+    var data2 = [barData];
     // Create the layout for the bar chart. 
     var barLayout = {
       title: "Top Ten Bacteria Cultures Found",
@@ -119,8 +119,8 @@ function buildCharts(sample) {
         t:100,
         b:30
       },
-      plot_bgcolor: "aqua",
-      paper_bgcolor:"aqua"
+      plot_bgcolor: "green",
+      paper_bgcolor:"green"
 
     };
     // Use Plotly to plot the data with the layout. 
@@ -152,7 +152,7 @@ function buildCharts(sample) {
     };
 
     // Use Plotly to plot the data with the layout.
-    Plotly.newPlot('bubble', bubbleData, bubbleLayout)
+    Plotly.newPlot('bubble', bubbleData, bubbleLayout);
 
     // Create the trace for the gauge chart.
     var gaugeData = [{
@@ -162,7 +162,7 @@ function buildCharts(sample) {
       mode: "gauge+number",
       gauge: {
         axis: { range: [null, 10] },
-        bar: { color: "black" },
+        bar: { color: "purple" },
         steps: [
           { range: [0, 2], color: "red" },
           { range: [2, 4], color: "orange" },
@@ -171,7 +171,7 @@ function buildCharts(sample) {
           { range: [8, 10], color: "green" }
         ],
         threshold: {
-          line: { color: "black", width: 4 },
+          line: { color: "purple", width: 4 },
           thickness: 0.2,
           value: 490}
       }
@@ -182,9 +182,9 @@ function buildCharts(sample) {
       width: 500,
       height: 400,
       margin: { t: 25, r: 25, l: 25, b: 25 },
-      font: { color: "black", family: "Arial" },
-      plot_bgcolor: "aqua",
-      paper_bgcolor:"aqua"
+      font: { color: "purple", family: "Times New Roman" },
+      plot_bgcolor: "green",
+      paper_bgcolor:"green"
     };
 
     // Use Plotly to plot the gauge data and layout.
